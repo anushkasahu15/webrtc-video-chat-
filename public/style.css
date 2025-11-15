@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+#room-selection {
+  margin-bottom: 20px;
+}
+
+#room-selection input {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+#room-selection button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#room-selection button:hover {
+  background-color: #0056b3;
+}
+
+#room-list {
+  list-style: none;
+  padding: 0;
+}
+
+#room-list li {
+  padding: 5px 10px;
+  background: #e9ecef;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+#room-list li:hover {
+  background: #ced4da;
+}
+
+#room {
+  display: none;
+  width: 100%;
+  max-width: 1200px;
+}
+
+#room-title {
+  text-align: center;
+}
+
+#participants {
+  margin-bottom: 20px;
+}
+
+#participant-list {
+  list-style: none;
+  padding: 0;
+}
+
+#video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+  width: 100%;
+}
+
+video {
+  width: 100%;
+  border-radius: 10px;
+  background: black;
+}
+
+#chat {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 300px;
+  background-color: #2a2a3d;
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  position: relative;
+  font-size: 0.9rem;
+}
+
+#chat-messages {
+  height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: white;
+}
+
+#chat-input {
+  display: flex;
+  margin-top: 10px;
+}
+
+#chat-input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+#chat-input button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#chat-input button:hover {
+  background-color: #218838;
+}
+
+#typing-indicator {
+  font-style: italic;
+  color: gray;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#connectionStatus {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+}
