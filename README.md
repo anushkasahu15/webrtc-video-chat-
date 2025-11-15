@@ -23,18 +23,25 @@ Installation & Setup
 git clone https://github.com/anushkasahu15/webrtc-video-chat.git
 cd webrtc-video-chat
 
-2. Install dependencies:
+
+3. Install dependencies:
    npm install
+
 
 3.Run the server:
     node server.js
 
+
 4.Open in browser:
    http://localhost:3000
 
+
 Technologies Used
+
 WebRTC – Peer-to-peer video/audio
+
 Node.js – Backend runtime
+
 Socket.io – Real-time signaling
 
 
